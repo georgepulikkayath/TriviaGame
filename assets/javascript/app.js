@@ -76,11 +76,11 @@ $(".btn-s").on("click",function(){
  
 
    }
-   
+  
    Results(rvalue,answer);
   
   stop();
-  
+
  
 });
 function Results(rvalue,answer){
@@ -139,7 +139,7 @@ function Results(rvalue,answer){
           debugger
           incorrect=new3[0];
           correct=new3[1];
-        console.log(incorrect);
+        
           $(".main-container").append($('<p></p>').text("Correct answer"+correct));
           $(".main-container").append($('<p></p>').text("Incorrect answer"+incorrect));
           
